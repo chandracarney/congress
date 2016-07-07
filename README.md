@@ -1,24 +1,22 @@
-# README
+# Congressional Information 
+This app uses the [Sunlight Congressional API](https://sunlightlabs.github.io/congress/index.html). You will need an API key to develop locally.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
+* Ruby 2.2.2
+* Rails 5.0
 
-Things you may want to cover:
+## Installation
+* Clone the repo:  
+`$ git clone https://github.com/chandracarney/congress`
 
-* Ruby version
+* Change into the new directory:  
+`$ cd congress`
 
-* System dependencies
+* Bundle install:  
+`$ bundle install`
 
-* Configuration
+* Set up the database:  
+`$ rake db:setup`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Launch the server:
+`rails server`
